@@ -1,3 +1,3 @@
-function blodDetail(id){
-    
+function blogDetail(id){
+
 }

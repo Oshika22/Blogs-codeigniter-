@@ -1,6 +1,7 @@
 <?php
-
+//file to add, edit , delete function
 class blog extends CI_controller{
+    //loading bloglist and options
     public function index(){
         $this->load->model('blog_model');
         $blogs = $this->blog_model->getAllblogs();
@@ -9,7 +10,7 @@ class blog extends CI_controller{
         $this->load->view('admin/dashboard',$bdata);
     }
 
-
+    //function to add 
     public function add(){
         $this -> load -> model('blog_model');
         $this -> load -> library('form_validation');
@@ -33,6 +34,7 @@ class blog extends CI_controller{
         }
     }
 
+    //function to edit
     public function edit(){
         $bdata = array();
         $this -> load -> model('blog_model');
@@ -61,6 +63,8 @@ class blog extends CI_controller{
             $this->load->view('admin/editblog');
         }
     }
+
+    //function to delete
     function delete(){
         $this -> load -> model('blog_model');
         $this -> load -> library('form_validation');
