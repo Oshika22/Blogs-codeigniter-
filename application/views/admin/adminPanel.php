@@ -9,6 +9,7 @@
 </style>
 </head>
 <body>
+    <!-- login form -->
     <div id="login-box">
         <h1>Login</h1>
         <div id="form-cont">

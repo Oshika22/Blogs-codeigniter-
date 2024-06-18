@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="<?php echo base_url().'assets/blodview/css/style.css';?>">
 </head>
 <body>
+    <!-- navbaar with adminPanel and other funtions -->
     <header>
         <div class="logo"></div>
         <input class="search-input" placeholder="Search your interest">
@@ -16,6 +17,8 @@
         <a href="">Contact us</a>
         <a href="http://[::1]/codeigniter/code3/blogby3/index.php?/Login/adminPanel">Admin Panel</a>
     </header>
+
+    <!-- containing all blog list and button to view -->
     <main>
         <div class="heading">Explore Technology By Reading Intresting Blogs....</div>
         <div class="blog-container">
@@ -32,6 +35,8 @@
             }?>
         </div>
     </main>
+
+    <!-- general information -->
     <footer>
         <h2>Website designed By Oshika Sharma</h2>
         <h4>9982664415</h4>

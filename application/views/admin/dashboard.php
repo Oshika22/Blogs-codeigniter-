@@ -10,12 +10,15 @@
     <header>
         <h1>Dashboard</h1>
     </header>
+    <!-- buttons to signout, add, edit and delete  -->
     <div id="functions-container">
         <button class="function-box" id="back-blog">Sign-out</button>
         <button class="function-box" id="add-blog">Add Blog</button>
         <button class="function-box" id="edit-blog">Edit Blog</button>
         <button class="function-box" id="delete-blog">Delete Blog</button>   
     </div>    
+
+    <!-- display bloglist -->
     <div class="blog-table">
         <table>
             <tr>
