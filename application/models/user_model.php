@@ -1,4 +1,5 @@
 <?php
+//to get user table
 class user_model extends CI_model{
     function dologin($username,$password){
         $this->db->where('username',$username);
