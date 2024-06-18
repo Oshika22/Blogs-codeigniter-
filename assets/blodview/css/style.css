@@ -5,6 +5,8 @@
 body{
     background-color: #000022;
 }
+
+/* ----------------------nav styling---------------------- */
 header{
     height: 60px;
     width: 100vw;
@@ -34,6 +36,8 @@ a{
     width: 50px;
 }
 
+
+/* -----------------------------blog list style------------------------ */
 main{
     background-color: #000022;
     color: white;
@@ -67,6 +71,8 @@ main{
     height: 200px;
     font-size: 20px;
 }
+
+/* button style */
 .view{
     border-top: 2px solid rgb(205, 205, 205) ;
 }
@@ -83,6 +89,8 @@ main{
 .read:hover{
     background-color: #000022;
 }
+
+/*------------------ footer ------------------------*/
 footer{
     padding: 10px;
     background-color: rgb(1, 0, 4);
