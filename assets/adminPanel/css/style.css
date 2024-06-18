@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 5000px;
+    width: 100vw;
+    background-color: azure;
+    color: crimson;
+    text-align: center;
+}
+#login-box{
+    height: 450px;
+    width: 300px;
+    position: relative;
+    margin: 6% auto;
+    padding: 5px;
+    background-color: antiquewhite;
+    overflow: hidden;
+    border: 3px solid crimson;
+}
+
+.input{
+    width: 90%;
+    margin: 10px 0;
+    padding: 10px 3px;
+    background: transparent;
+    outline: none;
+    border: 0;
+    border-bottom: 1px solid crimson; 
+}
+.btn{
+    height: 40px;
+    width: 100px;
+    margin: 20px;
+    font-size: 20px;
+    border: 2px ridge antiquewhite;
+    background-color: crimson;
+    border-radius: 10px;
+    color: antiquewhite;
+}
+.btn:hover{
+    background: radial-gradient(circle at 10% 20%, crimson 0%, #ff2c64);
+    color: antiquewhite;
+}

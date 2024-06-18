@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: azure;
+    /* rgb(255, 198, 222) */
+    /* rgb(230, 186, 198) */
+    text-align: center;
+}
+h1{
+    color: #ff0c4d;
+}
+/* ----------------Dashboard styling ----------------------------*/
+
+/* Functions  */
+#functions-container{
+    margin: 20px;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    align-items: center;
+}
+.function-box{
+    width: 200px;
+    height: 60px;
+    margin: 30px;
+    font-size: 25px;
+    background-color:gold;
+    border: 4px solid rgb(211, 179, 0);
+    color: #ff0c4d;
+}
+.function-box:hover{
+    background: radial-gradient(circle at 10% 20%, rgb(255, 37, 174) 0%, rgb(241, 147, 55) 53.4%, rgb(250, 237, 56) 99.5%);
+    border-color: rgb(255, 255, 118);
+    color: rgb(255, 255, 118);
+}
+
+/* bloglist  */
+.blog-table{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    margin: 20px;
+}
+table{
+    background-color: gold;
+    color: #ff0c4d;
+    font-size: 20px;
+}
+th{
+    width: 30vw;
+    height: 30px;
+    border: 3px solid rgb(211, 179, 0);;
+
+}
+#idcolumn{
+    width: 10vw;
+}
+#dateColumn{
+    width: 10vw;
+}
+td{
+    border: 2px solid white;
+}
+
+/* -----------------------addblog editblog styling---------------------------- */
+#blogform{
+    height: 70vh;
+    width: 90vw;
+    margin: 50px;
+    padding: 20px;
+    background-color: #007BFF;
+    box-shadow:#56a8ff 0px 20px 40px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.input{
+    height: 50px;
+    width: 80vw;
+    padding: 5px;
+    background-color: rgb(255, 248, 56);
+    border: 2px dashed rgb(253, 207, 0);
+}
+#content{
+    height: 20%;
+    width: 80vw;
+    padding: 5px;
+    
+}
+h3{
+    color: rgb(246, 255, 0);
+}
+.btn{
+    height: 40px;
+    width: 100px;
+    margin: 20px;
+    font-size: 20px;
+    border: 2px ridge rgb(255, 248, 56);
+    background-color: #ff0c4d;
+    border-radius: 10px;
+    color: rgb(255, 248, 56);
+}
+.btn:hover{
+    background: radial-gradient(circle at 10% 20%, rgb(255, 37, 174) 0%, rgb(241, 147, 55) 53.4%, rgb(250, 237, 56) 99.5%);
+    color: aliceblue;
+}
+#cancel{
+    text-decoration: none;
+    height: 38px;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
