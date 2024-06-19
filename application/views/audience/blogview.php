@@ -14,13 +14,13 @@
                 <div class="search-icon">
                     <i class="fa-solid fa-magnifying-glass"></i>
                 </div>
-        <a href="">Contact us</a>
-        <a href="http://[::1]/codeigniter/code3/blogby3/index.php?/Login/adminPanel">Admin Panel</a>
+        <a class="navlink" href="">Contact us</a>
+        <a class="navlink" href="http://[::1]/codeigniter/code3/blogby3/index.php?/Login/adminPanel">Admin Panel</a>
     </header>
 
     <!-- containing all blog list and button to view -->
     <main>
-        <div class="heading">Explore Technology By Reading Intresting Blogs....</div>
+        <div class="heading">Explore Technology By Reading Intresting Blogs...<div class="blink">.</div><div class="runner">.</div></div>
         <div class="blog-container">
             <?php if(!empty($blogs)){
                 foreach ($blogs as $blog){?>
@@ -43,5 +43,7 @@
         <h4>oshika004@gmail.com</h4>
         <h4>linkedin.com/in/oshika-sharma-a1120529a</h4>
     </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="<?php echo base_url().'assets/blodview/js/script.js';?>"></script>
 </body>
 </html>

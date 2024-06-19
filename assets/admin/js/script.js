@@ -15,3 +15,16 @@ deleteBlog.addEventListener("click", () =>{
 backBlog.addEventListener("click", () =>{
     window.open("http://localhost/codeigniter/code3/blogby3/index.php/Login");
 })
+
+
+gsap.from("header h1",{
+    scale: 2,
+    delay: 2,
+    scrollTrigger:{
+        trigger:"header h1",
+        scroller:"body",
+        marker:true,
+        start:"top 10%",
+        scrub:true,
+    }
+})

@@ -29,7 +29,6 @@ class blog_model extends CI_model{
     function deleteblog($id){
         $this->db->where('blog_id',$id);
         $this->db->delete('blogsdata');
-    }
-
+    }   
 }
 ?>
