@@ -14,7 +14,9 @@ class Login extends CI_controller{
     function blogDetail($id){
         $this -> load -> model('blog_model');
         $blog = $this->blog_model->getBlog($id);
-        $this -> load -> view('audience/blogDetail',$blog);
+        $bdata = array();
+        $bdata['blog'] = $blog;
+        $this -> load -> view('audience/blogDetail',$bdata);
     }
 
     // defining Admin Dashboard

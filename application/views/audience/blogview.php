@@ -27,7 +27,7 @@
                     <div class="blog-box">
                         <div class="tittle"><?php echo $blog['tittle']?></div>
                         <div class="view">
-                            <button onClick="blogDetail(<?php echo $blog['blog_id']?>);" class="read">Read</button>
+                            <button class="read"> <a href="<?php echo 'http://[::1]/codeigniter/code3/blogby3/index.php?/Login/blogDetail/'.$blog['blog_id'];?>">Read</a></button>
                         </div>
                     </div>
             <?php
@@ -43,9 +43,5 @@
         <h4>oshika004@gmail.com</h4>
         <h4>linkedin.com/in/oshika-sharma-a1120529a</h4>
     </footer>
-
-    <script src="<?php echo base_url().'assets/blodview/js/script.js';?>"></script>
 </body>
 </html>
-
-<scr

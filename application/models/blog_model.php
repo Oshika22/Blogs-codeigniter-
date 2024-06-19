@@ -15,7 +15,7 @@ class blog_model extends CI_model{
     //display single blog
     function getBlog($id){
         $this->db->where('blog_id',$id);
-        $blog = $this->db->get('blogdata')->row_array;
+        $blog = $this->db->get('blogsdata')->row_array();
         return $blog;
     }
 
